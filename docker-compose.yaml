@@ -4,6 +4,6 @@ services:
   api:
     build: ./.docker/node
     ports:
-      - 3004:3000
+      - 3000:3000
     volumes:
       - .:/home/node/app
